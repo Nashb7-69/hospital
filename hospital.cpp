@@ -31,7 +31,7 @@ int Mystical(int doctor);
 int children(int doctor);
 int Orthopedic(int doctor);
 int Dental(int doctor);
-// int Reservations(int chosen_doctor);
+
 
 int main()
 {
@@ -75,12 +75,12 @@ int main()
         {
             children(chosen_doctor);
             int result = children(chosen_doctor);
-            //  while(result==1||result==2){
-            //  if( result==1 ) {
-            //  cout<<"u chose the first doc";
+            
+            
+            
 
-            //  }
-            // }
+            
+            
         }
         else
         {
@@ -116,15 +116,15 @@ int main()
         if (chosen_doctor == 1 || chosen_doctor == 2)
         {
             Dental(chosen_doctor);
-            //   int transactionID = Dental(chosen_doctor);
+            
 
-            // while (transactionID == -1) {
-            //     cout << "User said 'no'. Restarting Dental function.\n";
-            //     transactionID = Dental(chosen_doctor);
-            // }
+            
+            
+            
+            
 
-            // // Do something based on the transaction ID
-            // Dental (chosen_doctor);
+            
+            
         }
         else
         {
@@ -132,16 +132,16 @@ int main()
         }
     }
 
-    // while (transactionID == 0) {
-    //     cout << "User said 'no'. Restarting Dental function.\n";
-    //     transactionID = Dental(selectedDoctor);
-    // }
+    
+    
+    
+    
 
-    // // Do something based on the transaction ID
-    // AnotherFunction(); // Call another function if the user said 'yes' in Dental
+    
+    
 
-    // return 0;
-    // Reservations(doctor);
+    
+    
 
     return 0;
 }
@@ -155,7 +155,7 @@ int Mystical(int doctor)
 
     if (doctor == 1)
     {
-        // calling Sara's functions
+        
         cout << "You have chosen " << mysticalDepartment.doctors << endl;
         cout << "from 7 to 15\n";
         cout << "active hours: "
@@ -472,7 +472,7 @@ int Dental(int doctor)
     }
 }
 
-// int Reservations(int chosen_doctor){
-// int result=Dental(chosen_doctor);
 
-// }
+
+
+
