@@ -177,8 +177,8 @@ int Orthopedic(int doctor){
          cout << Dental.alternative << endl;
          cout<<"from 15 to 24\n";
         cout <<"active hours: "<<" "<< Dental.active_time(15,24) << endl;
-        cout<<"Medical examination fees is 3k ";
-        cout<<"are u sure u wana transfer 3k? ";
+        // cout<<"Medical examination fees is 3k ";
+        // cout<<"are u sure u wana transfer 3k? ";
         
 
     }
